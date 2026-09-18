@@ -1,0 +1,1157 @@
+{
+  "timestamp": "2026-09-18T08:13:45.667399",
+  "total_duplicate_groups": 123,
+  "total_duplicate_images": 251,
+  "within_split_groups": 60,
+  "cross_split_groups": 63,
+  "affected_groups": [
+    {
+      "hash": "028d27ff645aaeb21688586fbb0e9299",
+      "ids": [
+        "012a242ac6ff",
+        "1f07dae3cadb"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "1f07dae3cadb"
+      ],
+      "val_ids": [
+        "012a242ac6ff"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "02e855cb5c1eb05c81e6fd027ccdbcf2",
+      "ids": [
+        "0161338f53cc",
+        "cac40227d3b2"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "0161338f53cc"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "cac40227d3b2"
+      ]
+    },
+    {
+      "hash": "c04aefbe905a9452432f505d23329e1c",
+      "ids": [
+        "034cb07a550f",
+        "c8d2d32f7f29"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "c8d2d32f7f29"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "034cb07a550f"
+      ]
+    },
+    {
+      "hash": "b5b0a2781910881117ddb397011f6f2a",
+      "ids": [
+        "04ac765f91a1",
+        "3044022c6969"
+      ],
+      "splits": [
+        "val",
+        "test"
+      ],
+      "train_ids": [],
+      "val_ids": [
+        "3044022c6969"
+      ],
+      "test_ids": [
+        "04ac765f91a1"
+      ]
+    },
+    {
+      "hash": "cf167b308c1501b136483264a98efb08",
+      "ids": [
+        "05a5183c92d0",
+        "63a03880939c"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "63a03880939c"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "05a5183c92d0"
+      ]
+    },
+    {
+      "hash": "89ecd9da08e22d225b70af86960ca4f6",
+      "ids": [
+        "0ac436400db4",
+        "fda39982a810"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "fda39982a810"
+      ],
+      "val_ids": [
+        "0ac436400db4"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "a6e3a43a938c5632d1d6d000c8d62777",
+      "ids": [
+        "1006345f70b7",
+        "435d900fa7b2"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "435d900fa7b2"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "1006345f70b7"
+      ]
+    },
+    {
+      "hash": "f5a81fd1e5907e2a9f66595e63e845cd",
+      "ids": [
+        "11242a67122d",
+        "65c958379680"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "11242a67122d"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "65c958379680"
+      ]
+    },
+    {
+      "hash": "972c611311946673ad19ba48c4d8bb9b",
+      "ids": [
+        "14515b8f19b6",
+        "ba2624883599"
+      ],
+      "splits": [
+        "val",
+        "test"
+      ],
+      "train_ids": [],
+      "val_ids": [
+        "14515b8f19b6"
+      ],
+      "test_ids": [
+        "ba2624883599"
+      ]
+    },
+    {
+      "hash": "197303f49434137ed6ab3c9906d76a13",
+      "ids": [
+        "14e3f84445f7",
+        "f0f89314e860"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "f0f89314e860"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "14e3f84445f7"
+      ]
+    },
+    {
+      "hash": "b0096445fdcb0bfe78b842bd1b013c1d",
+      "ids": [
+        "1a1b4b2450ca",
+        "92b0d27fc0ec"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "92b0d27fc0ec"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "1a1b4b2450ca"
+      ]
+    },
+    {
+      "hash": "6b85fba99dee00867ca00d47f8676d5d",
+      "ids": [
+        "1c4d87baaffc",
+        "35aa7f5c2ec0"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "35aa7f5c2ec0"
+      ],
+      "val_ids": [
+        "1c4d87baaffc"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "20ace75a463236852918e4455195a6e0",
+      "ids": [
+        "1c6d119c3d70",
+        "a56230242a95"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "1c6d119c3d70"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "a56230242a95"
+      ]
+    },
+    {
+      "hash": "d81ce47a6d4b99561bdbd8ac3bd41728",
+      "ids": [
+        "1c9c583c10bf",
+        "ea15a290eb96"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "ea15a290eb96"
+      ],
+      "val_ids": [
+        "1c9c583c10bf"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "fcfda099faac74a2ee724032d1566d7f",
+      "ids": [
+        "1e8a1fdee5b9",
+        "a47432cd41e7",
+        "b8ebedd382de"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "a47432cd41e7",
+        "b8ebedd382de"
+      ],
+      "val_ids": [
+        "1e8a1fdee5b9"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "23d0e6d9ea565768b4b1a55ed17392da",
+      "ids": [
+        "1e9224ccca95",
+        "f6f3ea0d2693"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "1e9224ccca95"
+      ],
+      "val_ids": [
+        "f6f3ea0d2693"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "de4d6b745deb0c337b7c3bca50d9b0a3",
+      "ids": [
+        "23d7ca170bdb",
+        "ea9e0fb6fb0b"
+      ],
+      "splits": [
+        "val",
+        "test"
+      ],
+      "train_ids": [],
+      "val_ids": [
+        "ea9e0fb6fb0b"
+      ],
+      "test_ids": [
+        "23d7ca170bdb"
+      ]
+    },
+    {
+      "hash": "a91ddc619ae3b19f7343b87fb1a5fc41",
+      "ids": [
+        "26e231747848",
+        "36ec36c301c1"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "26e231747848"
+      ],
+      "val_ids": [
+        "36ec36c301c1"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "b985387a6d90af5b7ffd767a769e15ae",
+      "ids": [
+        "278aa860dffd",
+        "f066db7a2efe"
+      ],
+      "splits": [
+        "val",
+        "test"
+      ],
+      "train_ids": [],
+      "val_ids": [
+        "278aa860dffd"
+      ],
+      "test_ids": [
+        "f066db7a2efe"
+      ]
+    },
+    {
+      "hash": "cea1f713f6a0738a09ede3e4bdabebc0",
+      "ids": [
+        "30cab14951ac",
+        "c546670d9684"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "c546670d9684"
+      ],
+      "val_ids": [
+        "30cab14951ac"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "4a1e67e016810e9c9ba08c9ae8be1b98",
+      "ids": [
+        "38487e1a5b1f",
+        "b376def52ccc"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "b376def52ccc"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "38487e1a5b1f"
+      ]
+    },
+    {
+      "hash": "319b37310cab5383d72f3ecdd6385fd2",
+      "ids": [
+        "3f44d749cd0b",
+        "f9e1c439d4c8"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "f9e1c439d4c8"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "3f44d749cd0b"
+      ]
+    },
+    {
+      "hash": "41c7dd89e5657c1808c2aa87ee3310cd",
+      "ids": [
+        "3fd7df6099e3",
+        "a3b2e93d058b"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "3fd7df6099e3"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "a3b2e93d058b"
+      ]
+    },
+    {
+      "hash": "e7ec65d286ccf33375db4c82254b2ab5",
+      "ids": [
+        "40e9b5630438",
+        "77a9538b8362"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "40e9b5630438"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "77a9538b8362"
+      ]
+    },
+    {
+      "hash": "ece61abc754cc776d087ab5ba13e3837",
+      "ids": [
+        "42a850acd2ac",
+        "51131b48f9d4",
+        "8cb6b0efaaac"
+      ],
+      "splits": [
+        "train",
+        "val",
+        "test"
+      ],
+      "train_ids": [
+        "8cb6b0efaaac"
+      ],
+      "val_ids": [
+        "42a850acd2ac"
+      ],
+      "test_ids": [
+        "51131b48f9d4"
+      ]
+    },
+    {
+      "hash": "781b4bf238bc2bba180d85f615a988a6",
+      "ids": [
+        "43fb6eda9b97",
+        "e4e343eaae2a"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "43fb6eda9b97"
+      ],
+      "val_ids": [
+        "e4e343eaae2a"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "e7699fcab7a16c18350e96d8e9890cff",
+      "ids": [
+        "48c49f662f7d",
+        "6cb98da77e3e"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "48c49f662f7d"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "6cb98da77e3e"
+      ]
+    },
+    {
+      "hash": "76773eca8d3a286e9baf4c146745d912",
+      "ids": [
+        "4fecf87184e6",
+        "9bf060db8376",
+        "f7edc074f06b"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "9bf060db8376",
+        "f7edc074f06b"
+      ],
+      "val_ids": [
+        "4fecf87184e6"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "e696ddd2ab0544e99e4a6050586875a9",
+      "ids": [
+        "5dc23e440de3",
+        "f4d3777f2710"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "f4d3777f2710"
+      ],
+      "val_ids": [
+        "5dc23e440de3"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "fc193ee5b4467caaeeb4cbb68d442535",
+      "ids": [
+        "60f15dd68d30",
+        "fcc6aa6755e6"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "60f15dd68d30"
+      ],
+      "val_ids": [
+        "fcc6aa6755e6"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "c4554a3c1170517ea907f3577a548871",
+      "ids": [
+        "65e51e18242b",
+        "cc12453ea915"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "65e51e18242b"
+      ],
+      "val_ids": [
+        "cc12453ea915"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "c018040a60996e17debbca55416f5adb",
+      "ids": [
+        "68332fdcaa70",
+        "d801c0a66738"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "68332fdcaa70"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "d801c0a66738"
+      ]
+    },
+    {
+      "hash": "e4b6268985b346018804a921801508d1",
+      "ids": [
+        "6c3745a222da",
+        "eadc57064154"
+      ],
+      "splits": [
+        "val",
+        "test"
+      ],
+      "train_ids": [],
+      "val_ids": [
+        "eadc57064154"
+      ],
+      "test_ids": [
+        "6c3745a222da"
+      ]
+    },
+    {
+      "hash": "f9f3914e7ff337cb501cbbbe3ff0a1bb",
+      "ids": [
+        "6e92b1c5ac8e",
+        "9c52b87d01f1"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "9c52b87d01f1"
+      ],
+      "val_ids": [
+        "6e92b1c5ac8e"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "73341fb3fe7160f070afff19b20332ed",
+      "ids": [
+        "7550966ef777",
+        "8d7bb0649a02"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "7550966ef777"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "8d7bb0649a02"
+      ]
+    },
+    {
+      "hash": "7dec9b9409bbe91d196a4923135b4c4e",
+      "ids": [
+        "75a7bc945b7d",
+        "98104c8c67eb"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "98104c8c67eb"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "75a7bc945b7d"
+      ]
+    },
+    {
+      "hash": "7466afedd7c8d829f842228478bc65ee",
+      "ids": [
+        "7a3ea1779b13",
+        "a8582e346df0",
+        "c027e5482e8c",
+        "ca6842bfcbc9"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "7a3ea1779b13",
+        "a8582e346df0",
+        "ca6842bfcbc9"
+      ],
+      "val_ids": [
+        "c027e5482e8c"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "6207f33919babcb3e65625538a4118e1",
+      "ids": [
+        "7b691d9ced34",
+        "d51c2153d151"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "7b691d9ced34"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "d51c2153d151"
+      ]
+    },
+    {
+      "hash": "3dff539fe2c5e2dfcb8dac73b0424f16",
+      "ids": [
+        "7d261f986bef",
+        "91cbe1c775ef"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "7d261f986bef"
+      ],
+      "val_ids": [
+        "91cbe1c775ef"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "165540476389b5d13f68c4468bcb4ed4",
+      "ids": [
+        "7e160c8b611e",
+        "91b6ebaa3678"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "7e160c8b611e"
+      ],
+      "val_ids": [
+        "91b6ebaa3678"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "374fb66d60f97af7ff2c679f81063fbb",
+      "ids": [
+        "80964d8e0863",
+        "ab50123abadb"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "ab50123abadb"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "80964d8e0863"
+      ]
+    },
+    {
+      "hash": "70f1921d018abf3eb649fe94cdda57d7",
+      "ids": [
+        "80d24897669f",
+        "fea14b3d44b0"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "fea14b3d44b0"
+      ],
+      "val_ids": [
+        "80d24897669f"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "3f22b0fbc171e5b46a06a54783e662cf",
+      "ids": [
+        "840527bc6628",
+        "857002ed4e49"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "840527bc6628"
+      ],
+      "val_ids": [
+        "857002ed4e49"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "d5595a2c533362dcbadf66195c3bc3bb",
+      "ids": [
+        "8446826853d0",
+        "8ef2eb8c51c4"
+      ],
+      "splits": [
+        "val",
+        "test"
+      ],
+      "train_ids": [],
+      "val_ids": [
+        "8ef2eb8c51c4"
+      ],
+      "test_ids": [
+        "8446826853d0"
+      ]
+    },
+    {
+      "hash": "9a0aac8db3b1c536864cc6bafd8905a6",
+      "ids": [
+        "8fc09fecd22f",
+        "d1cad012a254"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "d1cad012a254"
+      ],
+      "val_ids": [
+        "8fc09fecd22f"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "46c634487f3586097900e0fbb564a63c",
+      "ids": [
+        "906d02fb822d",
+        "a4012932e18d"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "906d02fb822d"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "a4012932e18d"
+      ]
+    },
+    {
+      "hash": "f52144fec260494290f0ba7b23653c02",
+      "ids": [
+        "98f7136d2e7a",
+        "e740af6ac6ea"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "e740af6ac6ea"
+      ],
+      "val_ids": [
+        "98f7136d2e7a"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "3be1e5644df038399c1d31319e733af1",
+      "ids": [
+        "9a3c03a5ad0f",
+        "f03d3c4ce7fb"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "9a3c03a5ad0f"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "f03d3c4ce7fb"
+      ]
+    },
+    {
+      "hash": "711902fa983501707939c072ff430530",
+      "ids": [
+        "9b32e8ef0ca0",
+        "a15652b22ab8"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "a15652b22ab8"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "9b32e8ef0ca0"
+      ]
+    },
+    {
+      "hash": "bff7a72c5c20fb6d8e505a59e13eb440",
+      "ids": [
+        "9b7b6e4db1d5",
+        "9f4132bd6ed6"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "9b7b6e4db1d5"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "9f4132bd6ed6"
+      ]
+    },
+    {
+      "hash": "5e85c7ff25e879de224c15aacb11d553",
+      "ids": [
+        "9c5dd3612f0c",
+        "c9f0dc2c8b43"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "9c5dd3612f0c"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "c9f0dc2c8b43"
+      ]
+    },
+    {
+      "hash": "6c6d0a03f7ddbc2958802f8de44d34c2",
+      "ids": [
+        "a8b637abd96b",
+        "e2c3b037413b"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "e2c3b037413b"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "a8b637abd96b"
+      ]
+    },
+    {
+      "hash": "3b0291e1bd8aee40226b1808c916eb8a",
+      "ids": [
+        "aca88f566228",
+        "c05b7b4c22fe"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "c05b7b4c22fe"
+      ],
+      "val_ids": [
+        "aca88f566228"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "4a705364c825e1b27d8a1c1a167a64ce",
+      "ids": [
+        "b06dabab4f09",
+        "d144144a2f3f"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "b06dabab4f09"
+      ],
+      "val_ids": [
+        "d144144a2f3f"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "6de1e04f816fb915da5832eba82b0a1a",
+      "ids": [
+        "b8ac328009e0",
+        "ff0740cb484a"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "ff0740cb484a"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "b8ac328009e0"
+      ]
+    },
+    {
+      "hash": "7dfc81788fb0ba952897c36bb59dc431",
+      "ids": [
+        "b9127e38d9b9",
+        "e39b627cf648"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "e39b627cf648"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "b9127e38d9b9"
+      ]
+    },
+    {
+      "hash": "4504e9549c404aea6f9424817dbafd5b",
+      "ids": [
+        "bb7e0a2544cd",
+        "e76a9cbb2a8c"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "e76a9cbb2a8c"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "bb7e0a2544cd"
+      ]
+    },
+    {
+      "hash": "c7660cb49b8811ccef8d04f6c962a321",
+      "ids": [
+        "bcdc8db5423b",
+        "f920ccd926db"
+      ],
+      "splits": [
+        "train",
+        "test"
+      ],
+      "train_ids": [
+        "bcdc8db5423b"
+      ],
+      "val_ids": [],
+      "test_ids": [
+        "f920ccd926db"
+      ]
+    },
+    {
+      "hash": "79aa4d8483a0be779709681da49d9beb",
+      "ids": [
+        "bfefa7344e7d",
+        "d85ea1220a03"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "bfefa7344e7d"
+      ],
+      "val_ids": [
+        "d85ea1220a03"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "5481e6578b7ddedb9ee4108cc7f85d28",
+      "ids": [
+        "cd3fd04d72f5",
+        "d81b6ed83bc2"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "cd3fd04d72f5"
+      ],
+      "val_ids": [
+        "d81b6ed83bc2"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "760a5f40f35dd1ca462fbd81d190ab92",
+      "ids": [
+        "ce887b196c23",
+        "e7a7187066ad"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "ce887b196c23"
+      ],
+      "val_ids": [
+        "e7a7187066ad"
+      ],
+      "test_ids": []
+    },
+    {
+      "hash": "7f5c9c9b1e466fbba278b5acddc6f335",
+      "ids": [
+        "d51b3fe0fa1b",
+        "df4913ca3712"
+      ],
+      "splits": [
+        "val",
+        "test"
+      ],
+      "train_ids": [],
+      "val_ids": [
+        "df4913ca3712"
+      ],
+      "test_ids": [
+        "d51b3fe0fa1b"
+      ]
+    },
+    {
+      "hash": "f2925812dee45e7dba0ca4fbb346ea99",
+      "ids": [
+        "e8d1c6c07cf2",
+        "f23902998c21"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ],
+      "train_ids": [
+        "e8d1c6c07cf2"
+      ],
+      "val_ids": [
+        "f23902998c21"
+      ],
+      "test_ids": []
+    }
+  ],
+  "action_taken": "WARNING: 63 groups cross splits. Manual review needed.",
+  "patient_level_note": "Patient-level leakage cannot be fully assessed from the available APTOS metadata. The APTOS 2019 dataset does not provide patient identifiers; each image ID is unique per examination."
+}

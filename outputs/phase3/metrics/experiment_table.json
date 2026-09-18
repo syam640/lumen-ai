@@ -1,0 +1,30 @@
+[
+  {
+    "experiment_id": "baseline_cnn",
+    "model": "BaselineCNN",
+    "loss": "weighted_ce",
+    "class_balancing": "class_weights",
+    "epochs": 5,
+    "val_accuracy": 0.6072727272727273,
+    "val_loss": 1.2673680821332065,
+    "test_accuracy": 0.6072727272727273,
+    "test_macro_f1": 0.39796368589412523,
+    "test_kappa": 0.4876993694261583,
+    "training_time_s": 1316.7671728134155,
+    "checkpoint": "outputs/phase3/checkpoints/baseline_cnn/best_model.pt"
+  },
+  {
+    "experiment_id": "resnet50_transfer",
+    "model": "DRResNet50",
+    "loss": "weighted_ce",
+    "class_balancing": "class_weights",
+    "epochs": 8,
+    "val_accuracy": 0.7691,
+    "val_loss": 0.851,
+    "test_accuracy": 0.7,
+    "test_macro_f1": 0.5573385667731046,
+    "test_kappa": 0.8039691774860044,
+    "training_time_s": 4580,
+    "checkpoint": "outputs/phase3/checkpoints/resnet50_transfer/best_model.pt"
+  }
+]

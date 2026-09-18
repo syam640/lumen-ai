@@ -1,0 +1,22 @@
+# LUMEN Production Requirements
+# FastAPI + ML inference backend
+
+# Web framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+
+# ML / PyTorch
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image processing
+opencv-python-headless>=4.8.0
+Pillow>=9.0.0
+numpy>=1.24.0
+
+# ML utilities
+scipy>=1.10.0
+
+# Data validation
+pydantic>=2.0.0

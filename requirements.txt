@@ -1,0 +1,18 @@
+# LUMEN AI/ML Requirements
+# Phase 1: Dataset Acquisition and Inspection
+
+# Core
+pandas>=1.5.0
+numpy>=1.23.0
+matplotlib>=3.6.0
+opencv-python>=4.6.0
+
+# Image processing
+Pillow>=9.0.0
+
+# Kaggle API (for automatic dataset download)
+kaggle>=1.5.0
+
+# Optional: For future model training
+# tensorflow>=2.10.0
+# scikit-learn>=1.1.0

@@ -1,0 +1,8 @@
+{
+  "python": "3.14.4",
+  "pytorch": "2.14.0+cpu",
+  "cuda": false,
+  "device": "cpu",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "timestamp": "2026-09-18T09:55:23.921106"
+}

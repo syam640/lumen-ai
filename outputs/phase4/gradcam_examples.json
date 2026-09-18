@@ -1,0 +1,242 @@
+[
+  {
+    "image_id": "6b91e99c9408",
+    "true_label": 0,
+    "predicted_label": 0,
+    "confidence": 0.9757704734802246,
+    "target_class": 0,
+    "correct": true,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/6b91e99c9408_gradcam.png",
+    "probabilities": [
+      0.9757704734802246,
+      0.008087589405477047,
+      0.007808709517121315,
+      0.004425032064318657,
+      0.003908176906406879
+    ]
+  },
+  {
+    "image_id": "5321ab64f9ea",
+    "true_label": 0,
+    "predicted_label": 0,
+    "confidence": 0.9320735335350037,
+    "target_class": 0,
+    "correct": true,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/5321ab64f9ea_gradcam.png",
+    "probabilities": [
+      0.9320735335350037,
+      0.039683714509010315,
+      0.019336426630616188,
+      0.00472076702862978,
+      0.004185483790934086
+    ]
+  },
+  {
+    "image_id": "a8263d248523",
+    "true_label": 0,
+    "predicted_label": 2,
+    "confidence": 0.45488712191581726,
+    "target_class": 2,
+    "correct": false,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/a8263d248523_gradcam.png",
+    "probabilities": [
+      0.22752799093723297,
+      0.08245512843132019,
+      0.45488712191581726,
+      0.17001597583293915,
+      0.06511380523443222
+    ]
+  },
+  {
+    "image_id": "8676427e4625",
+    "true_label": 1,
+    "predicted_label": 1,
+    "confidence": 0.5212264657020569,
+    "target_class": 1,
+    "correct": true,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/8676427e4625_gradcam.png",
+    "probabilities": [
+      0.003515851916745305,
+      0.5212264657020569,
+      0.28066912293434143,
+      0.062123507261276245,
+      0.13246512413024902
+    ]
+  },
+  {
+    "image_id": "05a5183c92d0",
+    "true_label": 1,
+    "predicted_label": 1,
+    "confidence": 0.6990790963172913,
+    "target_class": 1,
+    "correct": true,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/05a5183c92d0_gradcam.png",
+    "probabilities": [
+      0.008444623090326786,
+      0.6990790963172913,
+      0.19481058418750763,
+      0.028084615245461464,
+      0.0695810467004776
+    ]
+  },
+  {
+    "image_id": "a77dbec966d4",
+    "true_label": 1,
+    "predicted_label": 1,
+    "confidence": 0.7263619899749756,
+    "target_class": 1,
+    "correct": true,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/a77dbec966d4_gradcam.png",
+    "probabilities": [
+      0.014383339323103428,
+      0.7263619899749756,
+      0.1807948797941208,
+      0.023330993950366974,
+      0.055128756910562515
+    ]
+  },
+  {
+    "image_id": "7877be80901c",
+    "true_label": 2,
+    "predicted_label": 4,
+    "confidence": 0.3622274696826935,
+    "target_class": 4,
+    "correct": false,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/7877be80901c_gradcam.png",
+    "probabilities": [
+      0.00031187283457256854,
+      0.1186031699180603,
+      0.24616369605064392,
+      0.27269378304481506,
+      0.3622274696826935
+    ]
+  },
+  {
+    "image_id": "82f2784ead76",
+    "true_label": 2,
+    "predicted_label": 3,
+    "confidence": 0.7047240734100342,
+    "target_class": 3,
+    "correct": false,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/82f2784ead76_gradcam.png",
+    "probabilities": [
+      5.379977210395737e-07,
+      0.0012514264089986682,
+      0.1672547161579132,
+      0.7047240734100342,
+      0.1267692744731903
+    ]
+  },
+  {
+    "image_id": "9ad92f1c1542",
+    "true_label": 2,
+    "predicted_label": 4,
+    "confidence": 0.37796634435653687,
+    "target_class": 4,
+    "correct": false,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/9ad92f1c1542_gradcam.png",
+    "probabilities": [
+      0.0005521788261830807,
+      0.20216971635818481,
+      0.27688172459602356,
+      0.14243003726005554,
+      0.37796634435653687
+    ]
+  },
+  {
+    "image_id": "aba3063c5413",
+    "true_label": 3,
+    "predicted_label": 3,
+    "confidence": 0.5521112680435181,
+    "target_class": 3,
+    "correct": true,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/aba3063c5413_gradcam.png",
+    "probabilities": [
+      2.0606180441973265e-06,
+      0.0057480414398014545,
+      0.1386236548423767,
+      0.5521112680435181,
+      0.3035149872303009
+    ]
+  },
+  {
+    "image_id": "537e50fdf22e",
+    "true_label": 3,
+    "predicted_label": 3,
+    "confidence": 0.6549700498580933,
+    "target_class": 3,
+    "correct": true,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/537e50fdf22e_gradcam.png",
+    "probabilities": [
+      1.5577825251966715e-06,
+      0.0007746322662569582,
+      0.03806081786751747,
+      0.6549700498580933,
+      0.30619293451309204
+    ]
+  },
+  {
+    "image_id": "c76664770c07",
+    "true_label": 3,
+    "predicted_label": 3,
+    "confidence": 0.43028199672698975,
+    "target_class": 3,
+    "correct": true,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/c76664770c07_gradcam.png",
+    "probabilities": [
+      0.0003377078683115542,
+      0.03696160390973091,
+      0.33483731746673584,
+      0.43028199672698975,
+      0.1975814551115036
+    ]
+  },
+  {
+    "image_id": "1b32e1d775ea",
+    "true_label": 4,
+    "predicted_label": 4,
+    "confidence": 0.48507872223854065,
+    "target_class": 4,
+    "correct": true,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/1b32e1d775ea_gradcam.png",
+    "probabilities": [
+      3.367318512914608e-08,
+      0.001080525224097073,
+      0.05416686087846756,
+      0.4596738815307617,
+      0.48507872223854065
+    ]
+  },
+  {
+    "image_id": "3206171db5be",
+    "true_label": 4,
+    "predicted_label": 4,
+    "confidence": 0.627899169921875,
+    "target_class": 4,
+    "correct": true,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/3206171db5be_gradcam.png",
+    "probabilities": [
+      3.852605345855409e-07,
+      0.004593641962856054,
+      0.04839685931801796,
+      0.3191099464893341,
+      0.627899169921875
+    ]
+  },
+  {
+    "image_id": "4462fba1d2a1",
+    "true_label": 4,
+    "predicted_label": 3,
+    "confidence": 0.4542057514190674,
+    "target_class": 3,
+    "correct": false,
+    "output_path": "/home/megha/lumen/ai/outputs/phase4/visualizations/examples/4462fba1d2a1_gradcam.png",
+    "probabilities": [
+      1.5488515145989368e-06,
+      0.009468216449022293,
+      0.15170297026634216,
+      0.4542057514190674,
+      0.3846215307712555
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+experiment_id,model,loss,class_balancing,epochs,val_accuracy,val_loss,test_accuracy,test_macro_f1,test_kappa,training_time_s,checkpoint
+baseline_cnn,BaselineCNN,weighted_ce,class_weights,5,0.6072727272727273,1.2673680821332065,0.6072727272727273,0.39796368589412523,0.4876993694261583,1316.7671728134155,outputs/phase3/checkpoints/baseline_cnn/best_model.pt
+resnet50_transfer,DRResNet50,weighted_ce,class_weights,8,0.7691,0.851,0.7,0.5573385667731046,0.8039691774860044,4580.0,outputs/phase3/checkpoints/resnet50_transfer/best_model.pt
