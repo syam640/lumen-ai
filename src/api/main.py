@@ -47,6 +47,18 @@ GRADCAM_OUTPUT_DIR = str(BASE_DIR / "outputs/phase5/visualizations")
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
 ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".tiff"}
 
+# Auto-download model if not found locally
+if not Path(CHECKPOINT_PATH).exists():
+    try:
+        import subprocess
+        logger.info(f"Model not found at {CHECKPOINT_PATH}, attempting download...")
+        hf_url = "https://huggingface.co/syam640/lumen-model/resolve/main/best_model.pt"
+        Path(CHECKPOINT_PATH).parent.mkdir(parents=True, exist_ok=True)
+        subprocess.run(["curl", "-L", "-o", CHECKPOINT_PATH, hf_url], check=True, timeout=300)
+        logger.info("Model downloaded successfully.")
+    except Exception as e:
+        logger.error(f"Failed to download model: {e}")
+
 # CORS configuration
 FRONTEND_URL = os.environ.get("FRONTEND_URL", "http://localhost:5173")
 CORS_ORIGINS = [origin.strip() for origin in FRONTEND_URL.split(",") if origin.strip()]
