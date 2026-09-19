@@ -1,0 +1,15 @@
+node_modules
+venv
+__pycache__
+*.pyc
+.git
+datasets
+outputs/phase3/checkpoints
+outputs/phase5/visualizations
+outputs/phase5/demo
+outputs/phase5/test
+outputs/phase4/visualizations
+.pytest_cache
+frontend/dist
+*.md
+tests
