@@ -50,26 +50,13 @@ ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".tiff"}
 # Auto-download model if not found locally
 if not Path(CHECKPOINT_PATH).exists():
     try:
-        import subprocess
-        import urllib.request
-        logger.info(f"Model not found at {CHECKPOINT_PATH}, attempting download from Google Drive...")
+        logger.info(f"Model not found at {CHECKPOINT_PATH}, downloading from Google Drive...")
         Path(CHECKPOINT_PATH).parent.mkdir(parents=True, exist_ok=True)
         gdrive_file_id = os.environ.get("MODEL_GDRIVE_ID", "1Nv-3JXWhKG5Z0kSsRGQ9IKiqGGtzWKZG")
-        gdrive_url = f"https://drive.google.com/uc?export=download&id={gdrive_file_id}"
-        # Download with confirmation handling for large files
-        session = urllib.request.Session()
-        response = session.get(gdrive_url, stream=True)
-        # Check for virus scan confirmation page
-        if b"confirm=" in response.content or b"download_warning" in response.content:
-            for key, value in response.cookies.items():
-                if key.startswith("download_warning"):
-                    gdrive_url = f"{gdrive_url}&confirm={value}"
-                    response = session.get(gdrive_url, stream=True)
-                    break
-        with open(CHECKPOINT_PATH, "wb") as f:
-            for chunk in response.iter_content(chunk_size=8192):
-                f.write(chunk)
-        logger.info(f"Model downloaded to {CHECKPOINT_PATH} ({Path(CHECKPOINT_PATH).stat().st_size / 1e6:.1f}MB)")
+        import gdown
+        gdown.download(id=gdrive_file_id, output=CHECKPOINT_PATH, quiet=False)
+        size_mb = Path(CHECKPOINT_PATH).stat().st_size / 1e6
+        logger.info(f"Model downloaded: {size_mb:.1f}MB")
     except Exception as e:
         logger.error(f"Failed to download model: {e}")
 

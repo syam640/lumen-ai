@@ -20,3 +20,6 @@ scipy>=1.10.0
 
 # Data validation
 pydantic>=2.0.0
+
+# Google Drive downloads
+gdown>=5.0.0
