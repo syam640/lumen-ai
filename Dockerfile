@@ -15,11 +15,10 @@ RUN pip install --no-cache-dir -r requirements-prod.txt
 
 # Copy source code
 COPY src/ src/
-COPY frontend/dist/ frontend/dist/
 
-# Create directories
+# Create directories for runtime
 RUN mkdir -p outputs/phase5/visualizations
 
-EXPOSE $PORT
+EXPOSE 10000
 
-CMD uvicorn src.api.main:app --host 0.0.0.0 --port $PORT
+CMD uvicorn src.api.main:app --host 0.0.0.0 --port 10000
